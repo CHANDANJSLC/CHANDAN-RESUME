@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;300;400;500;600;900&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
     font-size: 10px;
     line-height: 2em;
     color: #333;
@@ -47,7 +47,10 @@ p {
 ul { 
     margin: 0;
     padding: 0;
-    list-style: none;
+}
+ul li{
+    list-style-type: disc;
+    margin-bottom: 5px;
 }
 
 .btn {
